@@ -1,0 +1,124 @@
+/* Importing the fonts */
+@import url(
+    'https://fonts.googleapis.com/css?family=Lora:400,500,600,700&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                outline: none;
+                box-sizing: border-box;
+                font-family: 'Lora', sans-serif;
+            }
+    
+            /* Body of the page */
+           
+    
+            /* Styling all the elements in nav as a whole */
+            nav {
+                
+                background: linear-gradient(77deg, rgb(22, 50, 69) 0%, rgb(92, 158, 208) 58%, rgb(81, 146, 189) 90%);
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                height: 35px;
+                
+                padding: 0 30px;
+            }
+    
+            /* Styling the logo */
+            nav .logo {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 200;
+                letter-spacing: -1px;
+            }
+    
+            /* Styling all the nav items as a whole */
+            nav .nav-items {
+                display: flex;
+                flex: 1;
+               
+                margin-left: 100px;
+            }
+    
+            /* Styling the list items in the nav tag */
+            nav .nav-items li {
+                list-style: none;
+                padding: 0 10px;
+            }
+    
+            /* Styling each list items */
+            nav .nav-items li a {
+                color: #fff;
+                font-size: 10px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+    
+            /* Setting the hover colour on the list items*/
+            
+            nav .nav-items li a:hover {
+                color: #19191b;
+            }
+            
+            nav .searchbar {
+                position: relative;
+                margin-left: 200px;
+            }
+    
+            /* Styling the search box where the
+                input would be given */
+            nav .searchbar input[type="text"] {
+                border: 0;
+                padding: 0;
+                height: 25px;
+                font-size: 12px;
+                border-radius: 5px;
+                margin: 2px 5px;
+                transition: all 0.3s ease;
+                width: 300px;
+                padding: 0 10px;
+            }
+    
+            /* Styling the search bar icon */
+            nav .searchbar .icon {
+                display: flex;
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 35px;
+                height: 30px;
+                background: none;
+                border-radius: 10px;
+                background: #062333;
+                
+                color: #fff;
+                
+            }
+            
+            nav .searchbar .icon i {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 0px 10px;
+                cursor: pointer;
+            }
+            nav .searchbar input[type="text"]:hover {
+                color: #19191b;
+                border-color: black;
+            }
+
+            nav .licon li {
+                list-style: none;
+                display: flex;
+                height: auto;
+            }
+
+            
+            .fa-user-circle:hover {
+                color: #0e0d0d !important;
+            }
+            .fa-shopping-cart:hover {
+                color: #0e0d0d !important;
+            }
